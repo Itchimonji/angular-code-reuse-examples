@@ -31,5 +31,11 @@ npm install
 ng serve
 ```
 
+## Resources
+
+Based on following stories:
+
+- [Inheritance & Object Composition](https://medium.com/@itchimonji/inheritance-object-composition-84c9539eeaf9)
+
 ## Licensing
 This project is licensed under Unlicense license. This license does not require you to take the license with you to your project.
