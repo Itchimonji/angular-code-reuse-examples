@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import {Ice} from '../interfaces/ice.interface';
+import {IceCream} from '../interfaces/ice.interface';
 
 @Component({
   selector: 'app-ice-card',
@@ -7,5 +7,5 @@ import {Ice} from '../interfaces/ice.interface';
   styleUrls: ['./ice-card.component.scss']
 })
 export class IceCardComponent {
-  @Input() ice: Ice;
+  @Input() iceCream: IceCream;
 }

@@ -1,6 +1,6 @@
-import {Ice} from '../interfaces/ice.interface';
+import {IceCream} from '../interfaces/ice.interface';
 
-export class Stracciatella implements Ice {
+export class Stracciatella implements IceCream {
 
   public getPrice(): number {
     return 1.20;

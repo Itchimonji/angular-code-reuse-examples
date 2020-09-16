@@ -1,8 +1,8 @@
-import { Component, OnInit } from '@angular/core';
-import {Vanilla} from '../models/vanilla';
-import {Strawberry} from '../models/strawberry';
-import {Stracciatella} from '../models/stracciatella';
-import {Ice} from '../interfaces/ice.interface';
+import { Component } from '@angular/core';
+import { Vanilla } from '../models/vanilla';
+import { Strawberry } from '../models/strawberry';
+import { Stracciatella } from '../models/stracciatella';
+import { IceCream } from '../interfaces/ice.interface';
 
 @Component({
   selector: 'app-imbiss',
@@ -11,15 +11,15 @@ import {Ice} from '../interfaces/ice.interface';
 })
 export class ImbissComponent {
 
-  public getVanilla(): Ice {
+  public getVanilla(): IceCream {
     return new Vanilla();
   }
 
-  public getStrawberry(): Ice {
+  public getStrawberry(): IceCream {
     return new Strawberry();
   }
 
-  public getStracciatella(): Ice {
+  public getStracciatella(): IceCream {
     return new Stracciatella();
   }
 
