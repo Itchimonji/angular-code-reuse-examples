@@ -14,7 +14,7 @@ import { LightThemeComponent } from './02. composition and services/light-theme/
 import { SupermarketComponent } from './03. composition and observables/supermarket/supermarket.component';
 import { CartComponent } from './03. composition and observables/cart/cart.component';
 import { ImbissComponent } from './04. composition and decorators/imbiss/imbiss.component';
-import { IceCardComponent } from './04. composition and decorators/ice-card/ice-card.component';
+import { IceCreamCardComponent } from './04. composition and decorators/ice-cream-card/ice-cream-card.component';
 import { PaletteComponent } from './bonus: composition in services/palette/palette.component';
 import { BaseThemeComponent } from './02. composition and services/base-theme/base-theme.component';
 
@@ -29,7 +29,7 @@ import { BaseThemeComponent } from './02. composition and services/base-theme/ba
     SupermarketComponent,
     CartComponent,
     ImbissComponent,
-    IceCardComponent,
+    IceCreamCardComponent,
     PaletteComponent,
     BaseThemeComponent
   ],

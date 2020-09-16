@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import {ColorService} from '../services/color.service';
-import {Color} from '../interfaces/color.interface';
+import { ColorService } from '../services/color.service';
+import { Color } from '../interfaces/color.interface';
 import { Yellow } from '../models/yellow.model';
 import { Red } from '../models/red.model';
 import { Purple } from '../models/purple.model';
